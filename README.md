@@ -29,12 +29,13 @@ Once you complete these steps, the bucket will be created.
 1. In the **Cloud Storage console**, click on **Upload Files**.
 2. Choose the CSV file (e.g., Sample-Data.csv) to upload and complete the upload.
 
-## Step 3: Enable an API for Integration
+## Note: Enable an API for Integration (IAM Service Account Credentials API)
 
-### Step 3.1: Create Access Key for Service Account (HMAC Key)
-1. Go to **IAM & Admin** in the Google Cloud Console.
-2. Create an access key for the service account that will interact with GCS.
-3. Generate the **HMAC Key** for secure API calls.
+## Step 3: Create Access Key for Service Account (HMAC Key)
+1. Go to **Cloud Storage** in the Google Cloud Console.
+2. Navigate to **Settings** > **Interoperability**.
+3. Choose the service account that will interact with GCS.
+4. Click **Create Key** to generate the **HMAC Key** for secure API calls.
 
 ## Step 4: Create an Integration
 
